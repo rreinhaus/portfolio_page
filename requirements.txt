@@ -19,5 +19,5 @@ streamlit_folium
 plotly
 holoviews 
 colorcet
-scikit-learn
+scikit-learn==0.24.2
 sklearn
