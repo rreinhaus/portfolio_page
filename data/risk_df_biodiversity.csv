@@ -1,0 +1,81 @@
+category,scientific_name,park_name,observations
+Mammal,Canis lupus,Yosemite National Park,35
+Mammal,Canis lupus,Bryce National Park,27
+Mammal,Canis lupus,Bryce National Park,29
+Mammal,Canis lupus,Bryce National Park,74
+Mammal,Canis lupus,Great Smoky Mountains National Park,15
+Mammal,Canis lupus,Yellowstone National Park,60
+Mammal,Canis lupus,Yellowstone National Park,67
+Mammal,Canis lupus,Yellowstone National Park,203
+Mammal,Canis lupus,Great Smoky Mountains National Park,14
+Mammal,Canis lupus,Yosemite National Park,117
+Mammal,Canis lupus,Yosemite National Park,44
+Mammal,Canis lupus,Great Smoky Mountains National Park,30
+Mammal,Canis lupus,Yosemite National Park,35
+Mammal,Canis lupus,Bryce National Park,27
+Mammal,Canis lupus,Bryce National Park,29
+Mammal,Canis lupus,Bryce National Park,74
+Mammal,Canis lupus,Great Smoky Mountains National Park,15
+Mammal,Canis lupus,Yellowstone National Park,60
+Mammal,Canis lupus,Yellowstone National Park,67
+Mammal,Canis lupus,Yellowstone National Park,203
+Mammal,Canis lupus,Great Smoky Mountains National Park,14
+Mammal,Canis lupus,Yosemite National Park,117
+Mammal,Canis lupus,Yosemite National Park,44
+Mammal,Canis lupus,Great Smoky Mountains National Park,30
+Mammal,Canis rufus,Bryce National Park,30
+Mammal,Canis rufus,Yosemite National Park,34
+Mammal,Canis rufus,Great Smoky Mountains National Park,13
+Mammal,Canis rufus,Yellowstone National Park,60
+Mammal,Myotis grisescens,Bryce National Park,27
+Mammal,Myotis grisescens,Yellowstone National Park,68
+Mammal,Myotis grisescens,Yosemite National Park,39
+Mammal,Myotis grisescens,Great Smoky Mountains National Park,26
+Mammal,Myotis sodalis,Yosemite National Park,36
+Mammal,Myotis sodalis,Great Smoky Mountains National Park,14
+Mammal,Myotis sodalis,Bryce National Park,27
+Mammal,Myotis sodalis,Yellowstone National Park,68
+Mammal,Glaucomys sabrinus coloratus,Bryce National Park,29
+Mammal,Glaucomys sabrinus coloratus,Great Smoky Mountains National Park,21
+Mammal,Glaucomys sabrinus coloratus,Yosemite National Park,36
+Mammal,Glaucomys sabrinus coloratus,Yellowstone National Park,67
+Bird,Grus americana,Great Smoky Mountains National Park,13
+Bird,Grus americana,Yellowstone National Park,57
+Bird,Grus americana,Bryce National Park,24
+Bird,Grus americana,Yosemite National Park,37
+Bird,Vermivora bachmanii,Bryce National Park,20
+Bird,Vermivora bachmanii,Yosemite National Park,45
+Bird,Vermivora bachmanii,Yellowstone National Park,58
+Bird,Vermivora bachmanii,Great Smoky Mountains National Park,18
+Bird,Picoides borealis,Yosemite National Park,43
+Bird,Picoides borealis,Great Smoky Mountains National Park,15
+Bird,Picoides borealis,Yellowstone National Park,64
+Bird,Picoides borealis,Bryce National Park,24
+Fish,Etheostoma percnurum,Yellowstone National Park,70
+Fish,Etheostoma percnurum,Great Smoky Mountains National Park,31
+Fish,Etheostoma percnurum,Bryce National Park,25
+Fish,Etheostoma percnurum,Yosemite National Park,40
+Fish,Noturus baileyi,Great Smoky Mountains National Park,23
+Fish,Noturus baileyi,Yellowstone National Park,67
+Fish,Noturus baileyi,Bryce National Park,22
+Fish,Noturus baileyi,Yosemite National Park,31
+Vascular Plant,Geum radiatum,Great Smoky Mountains National Park,27
+Vascular Plant,Geum radiatum,Yellowstone National Park,63
+Vascular Plant,Geum radiatum,Yosemite National Park,47
+Vascular Plant,Geum radiatum,Bryce National Park,25
+Fish,Chasmistes liorus,Bryce National Park,23
+Fish,Chasmistes liorus,Yellowstone National Park,65
+Fish,Chasmistes liorus,Great Smoky Mountains National Park,23
+Fish,Chasmistes liorus,Yosemite National Park,35
+Mammal,Ovis canadensis sierrae,Yellowstone National Park,67
+Mammal,Ovis canadensis sierrae,Yosemite National Park,39
+Mammal,Ovis canadensis sierrae,Bryce National Park,22
+Mammal,Ovis canadensis sierrae,Great Smoky Mountains National Park,25
+Bird,Gymnogyps californianus,Bryce National Park,30
+Bird,Gymnogyps californianus,Yosemite National Park,47
+Bird,Gymnogyps californianus,Great Smoky Mountains National Park,15
+Bird,Gymnogyps californianus,Yellowstone National Park,64
+Amphibian,Rana sierrae,Yosemite National Park,42
+Amphibian,Rana sierrae,Yellowstone National Park,60
+Amphibian,Rana sierrae,Bryce National Park,31
+Amphibian,Rana sierrae,Great Smoky Mountains National Park,11
