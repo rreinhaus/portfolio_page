@@ -19,3 +19,4 @@ streamlit_folium
 plotly
 holoviews 
 colorcet
+tk-tools
