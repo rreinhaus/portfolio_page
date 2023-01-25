@@ -1,7 +1,6 @@
 streamlit
 pandas
 folium
-folium.plugins
 datashader.utils
 holoviews.element.tiles
 holoviews
