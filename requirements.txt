@@ -1,13 +1,12 @@
 streamlit
 pandas
 folium
-datashader.utils
-holoviews.element.tiles
+datashader
 holoviews
 numpy
 requests
-hvplot.pandas
-geopy.distance
+hvplot
+geopy
 sklearn
 prophet
 keras
