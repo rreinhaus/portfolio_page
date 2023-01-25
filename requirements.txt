@@ -12,7 +12,7 @@ prophet
 keras
 nltk
 bs4
-turtle
+turtle==0.0.1
 matplotlib
 seaborn
 streamlit_folium 
