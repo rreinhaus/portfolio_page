@@ -1,4 +1,3 @@
-import _tkinter
 from turtle import color
 import streamlit as st
 import pandas as pd
