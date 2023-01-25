@@ -10,7 +10,6 @@ geopy
 sklearn
 prophet
 keras
-unicodedata
 nltk
 json 
 bs4
