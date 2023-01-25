@@ -20,3 +20,4 @@ plotly
 holoviews 
 colorcet
 scikit-learn
+sklearn
