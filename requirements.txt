@@ -10,8 +10,6 @@ geopy
 sklearn
 prophet
 keras
-re
-string
 unicodedata
 nltk
 json 
