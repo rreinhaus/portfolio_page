@@ -316,7 +316,7 @@ elif navi == 'Data Vizualizations':
     
     with city_col4:
         # city text field
-        city_name = st.text_input('City')
+        city_name = st.text_input('City', 'CWMBRAN')
     
     # Full address as one string
     full_address = str(post_code) + ' ' + str(city_name)
