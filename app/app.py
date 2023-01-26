@@ -691,18 +691,18 @@ elif navi == 'ML/DL Projects':
     
     with number_col1:
         # street number text field
-        street_num = st.text_input('Street Number','5')
+        street_num = st.text_input('Street Number','35')
 
     with street_col2:
         # Street name text field
-        street_name = st.text_input('Street Name', 'RHODFAR EOS')
+        street_name = st.text_input('Street Name', 'cremer street')
     with post_col3:
         # post code text field
-        post_code = st.text_input('Postcode','NP44 1FN')
+        post_code = st.text_input('Postcode','E1 8HD')
     
     with city_col4:
         # city text field
-        city_name = st.text_input('City','CWMBRAN')
+        city_name = st.text_input('City','london')
     
     # Full address as one string
     full_address = str(street_num) + ' ' + str(street_name) + ' ' + str(post_code) + ' ' + str(city_name)
