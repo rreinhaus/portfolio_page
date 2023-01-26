@@ -306,17 +306,10 @@ elif navi == 'Data Vizualizations':
     
     graph_data = pd.read_csv('data/HousVal_graph_data_withsalesbucket.csv')
     
-    st.write('What is the address of the property you would like to sell?')
+    st.write('What is the postcode and city of the property you would like to sell?')
 
-    number_col1, street_col2, post_col3,city_col4 = st.columns(4)
+    post_col3,city_col4 = st.columns(2)
     
-    with number_col1:
-        # street number text field
-        street_num = st.text_input('Street Number')
-
-    with street_col2:
-        # Street name text field
-        street_name = st.text_input('Street Name')
     with post_col3:
         # post code text field
         post_code = st.text_input('Postcode','NP44 1FN')
@@ -325,9 +318,8 @@ elif navi == 'Data Vizualizations':
         # city text field
         city_name = st.text_input('City')
     
-    
     # Full address as one string
-    full_address = str(street_num) + ' ' + str(street_name) + ' ' + str(post_code) + ' ' + str(city_name)
+    full_address = str(post_code) + ' ' + str(city_name)
     
        # Trigger the valuation
     if st.button(f'Visualizations for the address at {full_address}'):
