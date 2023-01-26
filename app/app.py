@@ -66,8 +66,6 @@ if navi == 'Home':
 
     st.markdown('---')
     
-    st.write('To make the frontpage more interesting here are some real-time reporting')
-    
     # Make sum fun data reporting and maybe sentiment analysis of the elon musk tweets or something else that just looks cool
 
     # Front Page Visuals
@@ -693,18 +691,18 @@ elif navi == 'ML/DL Projects':
     
     with number_col1:
         # street number text field
-        street_num = st.text_input('Street Number')
+        street_num = st.text_input('Street Number','5')
 
     with street_col2:
         # Street name text field
-        street_name = st.text_input('Street Name')
+        street_name = st.text_input('Street Name', 'RHODFAR EOS')
     with post_col3:
         # post code text field
-        post_code = st.text_input('Postcode')
+        post_code = st.text_input('Postcode','NP44 1FN')
     
     with city_col4:
         # city text field
-        city_name = st.text_input('City')
+        city_name = st.text_input('City','CWMBRAN')
     
     # Full address as one string
     full_address = str(street_num) + ' ' + str(street_name) + ' ' + str(post_code) + ' ' + str(city_name)
@@ -734,7 +732,7 @@ elif navi == 'ML/DL Projects':
     
     with area_text:
         # Area of temperature prediction
-        area_string = st.text_input('Area To Predict')
+        area_string = st.text_input('Country To Predict')
 
     with start_date_num:
         # Street name text field
