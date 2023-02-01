@@ -42,7 +42,6 @@ st.sidebar.markdown("In order to view the work, press on the section you want to
 navi = st.sidebar.radio('Select a section', ('Home','Data Capture & Formatting', 'Data Vizualizations', 'ML/DL Projects'))
 
 st.sidebar.info("""Please note that work presented here is copyright by Richard's Data (richarddata@proton.me) and is only for demo purposes.""")
-st.sidebar.write("""May the Force be with you""")
 
 
 if navi == 'Home':
