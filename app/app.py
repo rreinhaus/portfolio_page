@@ -41,7 +41,7 @@ st.sidebar.markdown("In order to view the work, press on the section you want to
 # Navigation of the website
 navi = st.sidebar.radio('Select a section', ('Home','Data Capture & Formatting', 'Data Vizualizations', 'ML/DL Projects'))
 
-st.sidebar.write("""Please note that work presented here is copyright by Data Rich (datarich@proton.me) and without consent cannot be shared.""")
+st.sidebar.info("""Please note that work presented here is copyright by Richard's Data (richarddata@proton.me) and is only for demo purposes.""")
 st.sidebar.write("""May the Force be with you""")
 
 
@@ -51,7 +51,7 @@ if navi == 'Home':
 
     st.markdown('''
     # Welcome!
-    This is Data Rich portfolio web application. 
+    This is Richard's Data portfolio web application. 
     The website gives information about me as data analyst/scientist and showcases few examples of my capabilites.
     
     The sections include:
@@ -62,7 +62,7 @@ if navi == 'Home':
     
     Each page has description on how the work was done and what are the results. 
     
-    If you like to be in touch for any freelance work email at - datarich@proton.me''')
+    If you like to be in touch for any freelance work email at - richarddata@proton.me''')
 
     st.markdown('---')
     
