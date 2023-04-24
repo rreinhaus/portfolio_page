@@ -22,3 +22,10 @@ colorcet
 scikit-learn==0.24.2
 tensorflow
 statsmodels
+PyPDF2
+imghdr
+pytesseract
+opencv-python
+pdftotext
+docx2txt
+openai
