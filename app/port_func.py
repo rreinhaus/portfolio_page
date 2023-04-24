@@ -20,8 +20,17 @@ nltk.download('stopwords')
 from keras.preprocessing import text, sequence
 import json 
 from bs4 import BeautifulSoup
+import os
+import imghdr
+import PyPDF2
+import pytesseract
+import cv2
+import docx2txt
+import openai
+import pdftotext
 
 hv.extension("bokeh", "matplotlib")
+
 
 
 ## Housval visualizations and machine learning model
@@ -557,3 +566,75 @@ def clean_dataframe(df):
       pass
     
     return df
+# Testing intial Wriser code
+
+# Check file format
+def check_file_format(file_path):
+    _, file_extension = os.path.splitext(file_path)
+    
+    if file_extension.lower() == '.pdf':
+        return 'pdf'
+    
+    elif imghdr.what(file_path) is not None:
+        return 'image'
+    
+    elif file_extension.lower() == '.docx':
+        return 'word'
+    
+    else:
+        return 'format not supported'
+
+# Text Extraction and Open AI API calls
+
+def image_totext(image_path):
+    # Load the image using OpenCV
+    image = cv2.imread(image_path)
+
+    # Convert the image to grayscale
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    # Apply thresholding to preprocess the image
+    gray = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
+
+    # Apply OCR using pytesseract
+    text = pytesseract.image_to_string(gray)
+    
+    return text
+
+# Extracting text from pdf
+
+def pdf_totext(pdf_path):
+    
+    with open(pdf_path, 'rb') as f:
+        pdf = pdftotext.PDF(f)
+    
+    text = '\n\n'.join(pdf)
+    
+    return text
+
+# Extracting text from word file
+
+def word_totext(word_path):
+    
+    text = docx2txt.process(file_path)
+    
+    return text
+
+openai.api_key = API_KEY_OPENAI
+
+# Chatgpt API call
+def chatgpt_call(action,document_type,language, tone, length, for_what, input_text=''):
+    if input_text == '':
+        prompt = f"{action} a {document_type} in {language} and {tone} tone with {length} words for {for_what}"
+        completion = openai.ChatCompletion.create(
+          model="gpt-3.5-turbo",
+          messages=[
+            {"role": "user", "content": prompt}])
+        return completion.choices[0].message['content']
+    else:
+        prompt_input = f"{action} a {document_type} in {language} and {tone} tone with {length} words for {for_what} using the following text {input_text}"
+        completion = openai.ChatCompletion.create(
+          model="gpt-3.5-turbo",
+          messages=[
+            {"role": "user", "content": prompt_input}])
+        return completion.choices[0].message['content']
